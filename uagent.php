@@ -62,7 +62,7 @@ function chooseRandomBrowserAndOS() {
     throw new Exception("Frequencies don't sum to 100.");
 }
     
-if(!function_exists('array_random') {
+if(!function_exists('array_random')) {
     function array_random(array $array) {
         return $array[array_rand($array, 1)];
     }
